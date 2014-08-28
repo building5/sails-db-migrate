@@ -6,9 +6,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "bin": {
-    "sails-db-migrate": "./bin/sails-db-migrate.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/building5/sails-db-migrate.git"
@@ -25,12 +22,12 @@
   },
   "homepage": "https://github.com/building5/sails-db-migrate",
   "dependencies": {
-    "db-migrate": "^0.7.1"
   },
   "devDependencies": {
     "mocha": "^1.21.4"
   },
   "peerDependencies": {
+    "db-migrate": "^0.7.1",
     "sails": "^0.10.4"
   }
 }
