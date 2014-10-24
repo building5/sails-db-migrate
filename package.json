@@ -1,6 +1,6 @@
 {
   "name": "sails-db-migrate",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "db-migrate integration for sails.js",
   "main": "index.js",
   "scripts": {
