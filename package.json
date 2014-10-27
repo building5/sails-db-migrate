@@ -3,9 +3,6 @@
   "version": "0.3.1",
   "description": "db-migrate integration for sails.js",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/building5/sails-db-migrate.git"
