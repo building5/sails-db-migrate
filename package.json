@@ -23,7 +23,7 @@
     "mocha": "^1.21.4"
   },
   "peerDependencies": {
-    "db-migrate": "^0.7.1",
+    "db-migrate": "^0.8.0",
     "sails": "^0.10.4"
   }
 }
