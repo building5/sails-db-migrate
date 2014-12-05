@@ -4,7 +4,7 @@
 
  * Added this changelog.
 
-## v0.6.0
+## v0.6.0 (2014-12-05)
 
  * PR#11 - Add SSL support for PostgreSQL.
  * PR#12 - Update db-migrate to 0.8.0.
