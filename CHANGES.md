@@ -1,8 +1,11 @@
 # sails-db-migrate changelog
 
-## v.next (20XX-XX-XX)
+## v0.6.1 (2015-02-20)
 
  * Added this changelog.
+ * #13 Updated peer dependencies
+   * db-migrate 0.7.0 to 0.9.x
+   * sails 0.10.4 to 0.11.x
 
 ## v0.6.0 (2014-12-05)
 
