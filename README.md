@@ -92,6 +92,12 @@ Running "db:migrate:down" (db:migrate) task
 Done, without errors.
 ```
 
+To specify your own migrations directory, use `--migrations-dir`.
+
+```bash
+$ grunt db:migrate:up --migrations-dir=migrations-special
+```
+
  [db-migrate]: https://github.com/kunklejr/node-db-migrate
  [sails.js]: http://sailsjs.org/
  [grunt]: http://gruntjs.com/

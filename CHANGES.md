@@ -1,9 +1,13 @@
 # sails-db-migrate changelog
 
+## v0.7.0 (2015-05-27)
+
+ * PR#14 - Add `--migrations-dir` option
+
 ## v0.6.1 (2015-02-20)
 
  * Added this changelog.
- * #13 Updated peer dependencies
+ * #13 - Updated peer dependencies
    * db-migrate 0.7.0 to 0.9.x
    * sails 0.10.4 to 0.11.x
 
