@@ -1,11 +1,12 @@
 # sails-db-migrate
 
-[db-migrate][] integration for [Sails.js][]. This is a fairly simple wrapper,
-which provides [grunt][] tasks for running and creating migrations. It also
-extracts the database configuration from the Sails config, so you don't have to
-duplicate you config in a `database.json` file.
+[db-migrate][] integration for [Sails.js][] and [waterline][]. This is a fairly 
+simple wrapper, which provides [grunt][] tasks for running and creating 
+migrations. It also extracts the database configuration from the Sails config,
+so you don't have to duplicate you config in a `database.json` file.
 
-Supports Sails 0.10.x.
+* Supports Sails 0.10.x.
+* Supports Waterline 0.10.x.
 
 ## Setup
 
@@ -34,13 +35,25 @@ module.exports.migrations = {
 };
 ```
 
-You'll also need to setup `tasks/register/dbMigrate.js` to add the `db:migrate`
+For Sails, you'll also need to setup `tasks/register/dbMigrate.js` to add the `db:migrate`
 tasks to grunt.
 
 ```JavaScript
 // tasks/register/dbMigrate.js
 module.exports = require('sails-db-migrate').gruntTasks;
 ```
+
+If using waterline without sails, you'll need to modify your `Gruntfile.js` to
+add the `db:migrate` tasks to grunt.
+
+```Javascript
+// Gruntfile.js
+module.exports = function (grunt) {
+  require('sails-db-migrate').gruntTasks(grunt);
+}
+```
+
+Finally, make sure your waterline connections are defined in 'config/connections.js'. 
 
 ## Usage
 
@@ -102,3 +115,4 @@ $ grunt db:migrate:up --migrations-dir=migrations-special
  [sails.js]: http://sailsjs.org/
  [grunt]: http://gruntjs.com/
  [db-migrate docs]: https://github.com/kunklejr/node-db-migrate#migrations-api
+ [waterline]: https://github.com/balderdashy/waterline

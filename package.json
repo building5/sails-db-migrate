@@ -1,6 +1,6 @@
 {
   "name": "sails-db-migrate",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "db-migrate integration for sails.js",
   "main": "index.js",
   "repository": {
@@ -18,12 +18,14 @@
     "url": "https://github.com/building5/sails-db-migrate/issues"
   },
   "homepage": "https://github.com/building5/sails-db-migrate",
-  "dependencies": {},
+  "dependencies": {
+    "app-root-path": "^1.0.0"
+  },
   "devDependencies": {
     "mocha": "^1.21.4"
   },
   "peerDependencies": {
     "db-migrate": ">0.7.0 <0.10",
-    "sails": ">0.10.4 <0.12"
+    "waterline": ">0.10.4 <0.12"
   }
 }
