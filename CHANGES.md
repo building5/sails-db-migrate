@@ -1,5 +1,9 @@
 # sails-db-migrate changelog
 
+## v0.8.0 (2015-07-08)
+
+ * PR#15 - Expose `sql-file` and `coffee-file` options
+
 ## v0.7.0 (2015-05-27)
 
  * PR#14 - Add `--migrations-dir` option
