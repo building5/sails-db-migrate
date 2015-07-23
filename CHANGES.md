@@ -1,5 +1,11 @@
 # sails-db-migrate changelog
 
+## v1.0.0 (2015-07-23)
+
+ * Set version to 1.0.0, because semver.
+ * PR#17 - Added `--table` option. And added `coffeeFile`, `migrationsDir` and
+   `table` config options.
+
 ## v0.8.0 (2015-07-08)
 
  * PR#15 - Expose `sql-file` and `coffee-file` options
