@@ -1,5 +1,9 @@
 # sails-db-migrate changelog
 
+## v1.1.0 (2015-07-27)
+
+ * Add `LOG_LEVEL` environment variable to increase Sails debug logging.
+
 ## v1.0.0 (2015-07-23)
 
  * Set version to 1.0.0, because semver.

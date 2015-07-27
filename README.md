@@ -114,6 +114,19 @@ To specify your own migrations directory, use `--migrations-dir`.
 $ grunt db:migrate:up --migrations-dir=migrations-special
 ```
 
+### Debugging
+
+Normally, migrations lift Sails with a log level of `silent`, since you usually
+don't need it. Sometimes, however, Sails will fail to lift, and some debug
+output would be nice.
+
+You can set the `LOG_LEVEL` environment variable to turn up sails logging for
+the migrations
+
+```bash
+$ LOG_LEVEL=debug grunt db:migrate:up
+```
+
  [db-migrate]: https://github.com/kunklejr/node-db-migrate
  [sails.js]: http://sailsjs.org/
  [grunt]: http://gruntjs.com/
