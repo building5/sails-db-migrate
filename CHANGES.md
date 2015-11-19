@@ -1,5 +1,11 @@
 # sails-db-migrate changelog
 
+## v1.2.0 (2015-11-19)
+
+ * #19 - Updated peer dependencies
+   * sails to 0.12.x (including rc3 or better)
+   * db-migrate to 0.10.x (including beta.4 or better)
+
 ## v1.1.0 (2015-07-27)
 
  * Add `LOG_LEVEL` environment variable to increase Sails debug logging.
