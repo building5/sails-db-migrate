@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/building5/sails-db-migrate",
   "dependencies": {},
-  "devDependencies": {
-    "mocha": "^1.21.4"
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "db-migrate": ">0.7.0 <0.11 || >=0.10.0-beta.4 <0.11",
     "sails": ">0.10.4 <0.13 || >=0.12.0-rc3 <0.13"
