@@ -1,4 +1,6 @@
 # sails-db-migrate
+[![devDependency Status](https://david-dm.org/building5/sails-db-migrate/dev-status.svg)](https://david-dm.org/building5/sails-db-migrate#info=devDependencies)
+[![peerDependency Status](https://david-dm.org/building5/sails-db-migrate/peer-status.svg)](https://david-dm.org/building5/sails-db-migrate#info=peerDependencies)
 
 [db-migrate][] integration for [Sails.js][]. This is a fairly simple wrapper,
 which provides [grunt][] tasks for running and creating migrations. It also
