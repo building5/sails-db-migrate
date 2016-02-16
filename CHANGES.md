@@ -1,8 +1,10 @@
 # sails-db-migrate changelog
 
-## vNEXT
+## v1.2.1 (2016-02-16)
 
  * Improved error handling when `./config/migrations.js` is missing
+ * #21 - Added badges
+ * Removed unused dev dependency
 
 ## v1.2.0 (2015-11-19)
 
