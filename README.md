@@ -118,8 +118,8 @@ $ grunt db:migrate:up --migrations-dir=migrations-special
 
 ### Debugging
 
-Normally, migrations lift Sails with a log level of `silent`, since you usually
-don't need it. Sometimes, however, Sails will fail to lift, and some debug
+Normally, migrations load Sails with a log level of `silent`, since you usually
+don't need it. Sometimes, however, Sails will fail to load, and some debug
 output would be nice.
 
 You can set the `LOG_LEVEL` environment variable to turn up sails logging for

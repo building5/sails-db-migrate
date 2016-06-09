@@ -1,5 +1,10 @@
 # sails-db-migrate changelog
 
+## v1.3.2 (2016-06-09)
+
+ * PR#26 - Changed `sails.lift` to `sails.load` to avoid invalid port errors
+   with newer versions of Sails.
+
 ## v1.3.1 (2016-02-16)
 
  * Fixed changelog
