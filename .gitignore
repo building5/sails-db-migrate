@@ -1,3 +1,4 @@
 node_modules
 .idea/workspace.xml
 atlassian-ide-plugin.xml
+npm-debug.log
