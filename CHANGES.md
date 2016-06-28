@@ -1,8 +1,9 @@
 # sails-db-migrate changelog
 
-## v.NEXT
+## v1.4.0 (2016-06-28)
 
  * Added wishlist to README
+ * PR#29, #28 - Adding support for `multipleStatements` in connection settings.
 
 ## v1.3.2 (2016-06-09)
 
