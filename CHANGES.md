@@ -1,5 +1,9 @@
 # sails-db-migrate changelog
 
+## v1.5.0 (2016-12-05)
+
+ * #23 - Added MongoDB support (Thanks AngelMunoz)
+
 ## v1.4.0 (2016-06-28)
 
  * Added wishlist to README

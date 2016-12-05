@@ -132,9 +132,7 @@ $ LOG_LEVEL=debug grunt db:migrate:up
 ### Patches Welcome
 
 If you'd like to contribute to sails-db-migrate, start by looking at some of the
-[open issues][] in the issue tracker. Other improvements you could make are:
-
- * [Add MongoDB compatibility](https://github.com/building5/sails-db-migrate/issues/23)
+[open issues][] in the issue tracker.
 
  [db-migrate]: https://github.com/kunklejr/node-db-migrate
  [sails.js]: http://sailsjs.org/
