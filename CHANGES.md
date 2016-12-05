@@ -2,7 +2,7 @@
 
 ## v1.5.0 (2016-12-05)
 
- * #23 - Added MongoDB support (Thanks AngelMunoz)
+ * #23 - Added MongoDB support (Thanks [AngelMunoz](https://github.com/AngelMunoz))
 
 ## v1.4.0 (2016-06-28)
 
