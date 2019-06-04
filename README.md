@@ -7,7 +7,7 @@ which provides [grunt][] tasks for running and creating migrations. It also
 extracts the database configuration from the Sails config, so you don't have to
 duplicate you config in a `database.json` file.
 
-Supports Sails 0.10.x.
+Supports Sails 0.10.x and 1.x.x
 
 ## Setup
 
@@ -31,8 +31,10 @@ use to run migrations.
 ```JavaScript
 // config/migrations.js
 module.exports.migrations = {
-  // connection name matches a field from config/connections.js
-  connection: 'somePostgresqlServer' // or MySQL
+  // v0.10.x -> connection name matches a field from config/connections.js
+  connection: 'somePostgresqlServer', // or MySQL
+  // v1.x.x -> datastore name matches a field from config/datastores.js
+  datastore: 'somePostgresqlServer' // or MySQL
 };
 ```
 
@@ -44,8 +46,10 @@ file for the migrations instead of javascript file (defaults to `false`).
 ```JavaScript
 // config/migrations.js
 module.exports.migrations = {
-  // connection name matches a field from config/connections.js
+  // v0.10.x -> connection name matches a field from config/connections.js
   connection: 'somePostgresqlServer', // or MySQL
+  // v1.x.x -> datastore name matches a field from config/datastores.js
+  datastore: 'somePostgresqlServer' // or MySQL
   table: 'sails_migrations',
   migrationsDir: 'sails_migrations',
   coffeeFile: true
